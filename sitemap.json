@@ -1,0 +1,83 @@
+{
+  "site": {
+    "name": "TopSpeed Manpower Supply",
+    "url": "https://topspeed.group",
+    "contact": {
+      "email": "hello@topspeed.group",
+      "phone": "xxxxxx"
+    },
+    "pages": [
+      {
+        "title": "Home",
+        "url": "/",
+        "file": "index.html",
+        "meta": {
+          "title": "TopSpeed — Skilled Manpower Supply UAE | Since 2006",
+          "description": "Reliable civil, mechanical & electrical manpower supply across the UAE. Ethical, compliant & experienced."
+        }
+      },
+      {
+        "title": "Services",
+        "url": "/services.html",
+        "file": "services.html",
+        "meta": {
+          "title": "Services — Civil, Mechanical & Electrical Manpower | TopSpeed",
+          "description": "Civil, mechanical & electrical manpower plus professional building cleaning services in the UAE."
+        }
+      },
+      {
+        "title": "About",
+        "url": "/about.html",
+        "file": "about.html",
+        "meta": {
+          "title": "About TopSpeed — Ethical Manpower Provider UAE",
+          "description": "TopSpeed — Trusted manpower supply since 2006. Committed to ethical recruitment & safety."
+        }
+      },
+      {
+        "title": "Contact",
+        "url": "/contact.html",
+        "file": "contact.html",
+        "meta": {
+          "title": "Contact TopSpeed — Manpower Supply UAE",
+          "description": "Contact TopSpeed for manpower supply, building services and staffing solutions in the UAE."
+        }
+      }
+    ],
+    "companyInfo": {
+      "name": "TopSpeed Group",
+      "established": "2006",
+      "workersSupplied": "4,500+",
+      "clients": ["Siemens", "Boymer", "Other MNCs"],
+      "location": "UAE"
+    },
+    "groupCompanies": [
+      {
+        "name": "TopSpeed Plaster & Paints Cont.",
+        "description": "Specialised plastering and paint contracting services"
+      },
+      {
+        "name": "Divine Electromechanical LLC",
+        "description": "Electromechanical staffing and engineering services"
+      },
+      {
+        "name": "COS Technical Service LLC",
+        "description": "Technical service solutions and skilled manpower supply"
+      },
+      {
+        "name": "Al Nejoun Al Bahirah AC Unit Fixing Cont.",
+        "description": "Air conditioning installation and repair services"
+      },
+      {
+        "name": "Royal Village Auto Repairing Service LLC",
+        "description": "Automobile workshop — content to be updated",
+        "note": "Content to be updated later"
+      },
+      {
+        "name": "Skill Link Technical Service LLC",
+        "description": "Technical manpower and specialist services"
+      }
+    ]
+  }
+}
+
