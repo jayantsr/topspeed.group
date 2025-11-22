@@ -38,9 +38,9 @@
           <!-- Contact Form -->
           <div class="contact-form-container">
             <h2>Send us a Message</h2>
-            <form 
-              class="contact-form" 
-              action="https://formspree.io/f/YOUR_FORM_ID" 
+            <form
+              class="contact-form"
+              action="https://formspree.io/f/YOUR_FORM_ID"
               method="POST"
               id="contact-form"
             >
@@ -69,15 +69,27 @@
                   required
                 ></textarea>
               </div>
-              <button type="submit" class="btn btn-primary">Send Message</button>
+              <button type="submit" class="btn btn-primary">
+                Send Message
+              </button>
               <!-- Hidden field for spam protection -->
-              <input type="text" name="_gotcha" style="display:none" />
+              <input type="text" name="_gotcha" style="display: none" />
               <!-- Hidden field for form response -->
               <input type="hidden" name="_next" value="?submitted=true" />
             </form>
-            
+
             <!-- Form Status Message (shown after submission) -->
-            <div id="form-status" style="display: none; margin-top: 1rem; padding: 1rem; background: #d4edda; color: #155724; border-radius: 8px;">
+            <div
+              id="form-status"
+              style="
+                display: none;
+                margin-top: 1rem;
+                padding: 1rem;
+                background: #d4edda;
+                color: #155724;
+                border-radius: 8px;
+              "
+            >
               Thank you! Your message has been sent successfully.
             </div>
           </div>
@@ -87,11 +99,15 @@
             <div class="contact-info-box">
               <h2>Contact Information</h2>
               <p><strong>Email:</strong></p>
-              <p><a href="mailto:hello@topspeed.group">hello@topspeed.group</a></p>
+              <p>
+                <a href="mailto:topspeedcont@gmail.com"
+                  >Topspeedcont@gmail.com</a
+                >
+              </p>
               <p><strong>Phone:</strong></p>
-              <p>xxxxxx</p>
-              <p><strong>Address:</strong></p>
-              <p>To be updated</p>
+              <p>+91 50 4818725</p>
+              <!-- <p><strong>Address:</strong></p> -->
+              <!-- <p>To be updated</p> -->
             </div>
 
             <div class="track-record-box">
@@ -103,7 +119,7 @@
                 in the UAE.
               </p>
               <ul class="track-record-list">
-                <li>4,500+ personnel deployed since 2006</li>
+                <li>4,500+ personnel deployed since 2005</li>
                 <li>Partnerships with leading MNCs and contractors</li>
                 <li>Full compliance with UAE labour regulations</li>
               </ul>
@@ -134,25 +150,24 @@
 
     <script>
       // Handle form submission
-      const form = document.querySelector('.contact-form');
-      const formStatus = document.getElementById('form-status');
-      
+      const form = document.querySelector(".contact-form");
+      const formStatus = document.getElementById("form-status");
+
       if (form) {
-        form.addEventListener('submit', function(e) {
+        form.addEventListener("submit", function (e) {
           // Optional: Add AJAX submission for better UX
           // The form will still work with native HTML submission
         });
-        
+
         // Redirect to thank you page or show message after submission
-        window.addEventListener('DOMContentLoaded', function() {
+        window.addEventListener("DOMContentLoaded", function () {
           const urlParams = new URLSearchParams(window.location.search);
-          if (urlParams.get('submitted') === 'true') {
-            formStatus.style.display = 'block';
-            form.style.display = 'none';
+          if (urlParams.get("submitted") === "true") {
+            formStatus.style.display = "block";
+            form.style.display = "none";
           }
         });
       }
     </script>
   </body>
 </html>
-

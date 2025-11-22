@@ -12,7 +12,7 @@
         "url": "/",
         "file": "index.html",
         "meta": {
-          "title": "TopSpeed — Skilled Manpower Supply UAE | Since 2006",
+          "title": "TopSpeed — Skilled Manpower Supply UAE | Since 2005",
           "description": "Reliable civil, mechanical & electrical manpower supply across the UAE. Ethical, compliant & experienced."
         }
       },
@@ -31,7 +31,7 @@
         "file": "about.html",
         "meta": {
           "title": "About TopSpeed — Ethical Manpower Provider UAE",
-          "description": "TopSpeed — Trusted manpower supply since 2006. Committed to ethical recruitment & safety."
+          "description": "TopSpeed — Trusted manpower supply since 2005. Committed to ethical recruitment & safety."
         }
       },
       {
@@ -46,7 +46,7 @@
     ],
     "companyInfo": {
       "name": "TopSpeed Group",
-      "established": "2006",
+      "established": "2005",
       "workersSupplied": "4,500+",
       "clients": ["Siemens", "Boymer", "Other MNCs"],
       "location": "UAE"
@@ -80,4 +80,3 @@
     ]
   }
 }
-

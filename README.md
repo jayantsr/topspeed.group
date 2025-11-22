@@ -1,6 +1,6 @@
 # TopSpeed Group Website
 
-A professional 4-page marketing website for **TopSpeed Manpower Supply (UAE)**, showcasing reliable, ethical workforce solutions since 2006.
+A professional 4-page marketing website for **TopSpeed Manpower Supply (UAE)**, showcasing reliable, ethical workforce solutions since 2005.
 
 ## 🌐 Live Website
 
@@ -52,6 +52,7 @@ A clean, minimal marketing website designed for digital showcase with profession
 This site is hosted on GitHub Pages. To deploy:
 
 1. **Push to GitHub**
+
    ```bash
    git add .
    git commit -m "Initial website launch"
@@ -59,6 +60,7 @@ This site is hosted on GitHub Pages. To deploy:
    ```
 
 2. **Configure GitHub Pages**
+
    - Go to repository Settings → Pages
    - Source: Deploy from branch → `main`
    - Custom domain: Configured via `CNAME` file
@@ -110,22 +112,25 @@ topspeed.group/
 ## 🏢 Company Information
 
 - **Name:** TopSpeed Manpower Supply (UAE)
-- **Established:** 2006
+- **Established:** 2005
 - **Workers Supplied:** 4,500+
 - **Email:** hello@topspeed.group
 - **Phone:** To be updated
 
 ### Major Clients
+
 - Siemens
 - Boymer
 - Other MNCs
 
 ### Services
+
 - Civil, Mechanical, Electrical Manpower
 - Supervisors & Engineers
 - Building Cleaning & Facilities
 
 ### Industries
+
 - Contracting, Construction
 - Industrial Operations
 - Oil & Gas
@@ -146,6 +151,7 @@ topspeed.group/
 ## 🎯 SEO & Metadata
 
 Each page includes optimized:
+
 - Page titles
 - Meta descriptions (max 150 chars)
 - Semantic HTML structure
@@ -156,6 +162,7 @@ Each page includes optimized:
 ## 🔒 Compliance & Legal
 
 All pages include:
+
 - UAE labour law compliance statements
 - Ethical recruitment commitments
 - Worker wellbeing assurances
@@ -199,6 +206,7 @@ All pages include:
 ## 📞 Support
 
 For questions about the website or updates, contact:
+
 - **Email:** hello@topspeed.group
 - **Website:** [topspeed.group](https://topspeed.group)
 
@@ -213,9 +221,9 @@ For questions about the website or updates, contact:
 ## 🙏 Acknowledgments
 
 Built with attention to:
+
 - Accessibility (WCAG guidelines)
 - Performance optimization
 - Mobile-first responsive design
 - SEO best practices
 - Professional business standards
-
